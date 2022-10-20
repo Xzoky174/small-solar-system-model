@@ -1,0 +1,33 @@
+html {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#current {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto 0;
+  z-index: 100;
+  width: 180px;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  border-left: 2px solid cornflowerblue;
+  padding: 20px 12px;
+  font-family: "Lucida Sans", sans-serif;
+}
